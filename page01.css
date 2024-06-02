@@ -80,6 +80,9 @@ input{
     align-items: center;
     padding: 100px 0 80px;
 }
+.container-donate-today p{
+    text-align: center;
+}
 .tk-card{
     width: 60%;
     display: flex;
@@ -107,6 +110,9 @@ input{
 /* ----------------------------our-donate-plan----------------------------- */
 .our-donate-plan{
     padding: 40px 10vw;
+}
+.our-donate-plan p{
+    text-align: center;
 }
 .card-h1{
     font-size: 32px;
