@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+/* font-family: "Roboto", sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+/* font-family: "Style Script", cursive; */
+
+:root {
+    --primarry-color: #ff5959;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+button{
+    padding: 15px 25px;
+    border: none;
+    color: white;
+    background-color: var(--primarry-color);
+    border-radius: 6px;
+    font-size: 18px;
+}
+h1{
+    font-size: 3vw;
+    text-align: center;
+    padding: 15px 0;
+}
+p{
+    text-align: center;
+    padding: 15px 0;
+    color: rgb(99, 98, 98);
+}
+input{
+    width: 60%;
+    border: none;
+    border-bottom: 2px solid rgba(215, 215, 215, 0.536);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+
+/* ---------------------------------------hero---------------------------------------- */
+.container-hero{
+    background-image: url(./images/donation0.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-h1, .hero-p{
+    text-align: center;
+    color: white;
+}
+.hero-h1{
+    font-size: 5vw;
+}
+.hero-p{
+    margin: 20px;
+    letter-spacing: 1.5px;
+}
+
+
+
+
+/* ---------------------------------------donate-today---------------------------------------- */
+.container-donate-today{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0 80px;
+}
+.tk-card{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    gap: 15px;
+    margin: 20px 0;
+}
+.tk-card-items, .tk-card-active{
+    width: 19%;
+    padding: 50px 0;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(215, 215, 215, 0.536);
+    color: rgb(156, 153, 153);
+    
+}
+.tk-card-active{
+    border: 2px solid var(--primarry-color);
+    color: var(--primarry-color);
+    background-color: #fbd0d0de;
+}
+
+/* ----------------------------our-donate-plan----------------------------- */
+.our-donate-plan{
+    padding: 40px 10vw;
+}
+.card-h1{
+    font-size: 32px;
+    text-align: start;
+    margin: 0;
+    padding: 20px 0;
+}
+.card-p{
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    color: rgb(99, 98, 98);
+    letter-spacing: 1px;
+}
+.donate-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px 0;
+    gap: 15px;
+}
+.donate-card{
+    width: 32%;
+    padding: 50px 20px;
+    border-radius: 6px;
+}
+.donate-card-01{
+    background-color: #edf5f6;
+}
+.donate-card-02{
+    background-color: #ffeeee;
+}
+.donate-card-03{
+    background-color: #fff4d6;
+}
+
+/* --------------------------------------document-------------------------------------- */
+.container-document{
+    padding: 40px 200px;
+}
+.container-document-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 80px 0;
+}
+.container-document h1, p{
+    text-align: start;
+}
+.document-content{
+    width: 50%;
+}
+.document-img{
+    width: 50%;
+}
+.document-img img{
+    width: 100%;
+    border-radius: 6px;
+}
+.container-document-down{
+
+}
+
+/* --------------------------------------update-------------------------------------- */
+.container-update{
+    padding: 30px 200px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-update p{
+    text-align: center;
+}
+.mail-sub{
+    width: 80%;
+    padding: 80px;
+    background-color: #fee3e3;
+    border-radius: 8px;
+}
+.email{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+.u-email{
+    width: 40%;
+    background-color: rgb(207, 202, 202);
+    color: rgb(118, 116, 116);
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    font-size: 16px;
+}
+.u-sub{
+    width: 20%;
+    background-color: #ff5959;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    color: white;
+    padding: 10px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    font-size: 16px;
+}
+
+
+/* --------------------------------------footer-------------------------------------- */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b0d17;
+    padding: 20px 0;
+}
+.footer-h1{
+    font-family: "Style Script";
+    color: #ff5959;
+    padding: 5px 0;
+}
+.footer-p{
+    padding:0;
+}
